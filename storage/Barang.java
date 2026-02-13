@@ -30,11 +30,16 @@ public class Barang {
     }
 
     public void setStok(int stok){
-        if (stok < 0) this.stok = 0;
-        this.stok = stok;
+        if (stok < 0){
+            this.stok = 0;
+        } else {
+            this.stok = stok;
+        }
+        
     }
     
 
 }
+
 
 
